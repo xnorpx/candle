@@ -1,20 +1,20 @@
 [workspace]
 members = [
     "candle-core",
-    "candle-datasets",
-    "candle-examples",
-    "candle-book",
     "candle-nn",
-    "candle-pyo3",
-    "candle-transformers",
-    "candle-wasm-examples/*",
-    "candle-wasm-tests",
 ]
 exclude = [
-   "candle-flash-attn",
-   "candle-kernels",
-   "candle-metal-kernels",
-   "candle-onnx",
+    "candle-examples",
+    "candle-transformers",
+    "candle-datasets",
+    "candle-book",
+    "candle-pyo3",
+    "candle-wasm-examples/*",
+    "candle-wasm-tests",
+    "candle-flash-attn",
+    "candle-kernels",
+    "candle-metal-kernels",
+    "candle-onnx",
 ]
 resolver = "2"
 
