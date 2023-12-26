@@ -70,7 +70,7 @@ mod tensor;
 pub mod test_utils;
 pub mod utils;
 mod variable;
-#[cfg(feature = "opencl")]
+//#[cfg(feature = "opencl")]
 pub mod opencl_backend;
 
 pub use cpu_backend::CpuStorage;
